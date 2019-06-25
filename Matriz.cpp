@@ -39,7 +39,7 @@ this->size=size;
 void Matriz::suma(int** matrizB){
     int** sumada=NULL;
     sumada=new int*[size];
-    for(int i=0;i>size;i++){
+    for(int i=0;i<size;i++){
         sumada[i]=new int[size];
     }
 
